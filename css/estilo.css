@@ -3,6 +3,7 @@
 
 html, body, #home{
     height: 100%;
+    overflow-x: hidden;
 }
 
 body{
@@ -66,6 +67,34 @@ nav.navbar-transparent{
 .btn-white:hover{
     background: white;
     color: black;
+}
+
+/* SERVICOS */
+
+#servicos h2, #servicos h3{
+    color: #7C25F8;
+}
+#servicos h2, #servicos h3, #recursos h2, #recursos h3{
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+#servicos h2, #recursos h2{
+    font-size: 3em;
+}
+
+#servicos h3, #recursos h3{
+    font-size: 2em;
+}
+
+#recursos h3{
+    color: #9bf0e1;
+}
+
+.rotacionar{
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg); 
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */
